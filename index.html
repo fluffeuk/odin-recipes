@@ -3,15 +3,24 @@
     <head>
         <meta charset="utf-8">
         <title>Odin | Recipes</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1>Odin Recipes</h1>
+        <div id="odin-watermark"><img src="https://www.theodinproject.com/assets/icons/odin-icon-a34029cd84a741be4da27758dafd7d7ac3729021adea3e0701e310d91e5c1d04.svg" alt="Odin Logo"></div>
+        
+        <div class="header"><h1>odin_recipes</h1></div>
 
-        <ul>
-            <li><a href="./recipes/garlic bread.html">A wonderful homemade garlic bread</a></li>
-            <li><a href="./recipes/lava cake.html">Melt-in-the-middle chocolate lava cakes for a satisfying and filling dessert</a></li>
-            <li><a href="./recipes/mexican hot chocolate.html">Hot chocolate, but it's mexican</a></li>
-        </ul>
-        <p>Thank you for visiting!</p>
+        <div class="container">
+            <div class="terminal-window">
+                <div class="title">terminal</div>
+                <div class="content"><span class="prompt-symbol">$</span>   <span class="command">cd</span> <span class="argument directory">recipes</span><br>
+                <span class="prompt-symbol">$</span>   <span class="command">ls</span><br>
+                <ul class="ls-response">
+                    <li><a href="./recipes/garlic bread.html">'a wonderful homemade garlic bread.html'</a></li>
+                    <li><a href="./recipes/lava cake.html">'Melt-in-the-middle chocolate lava cakes for a satisfying and filling dessert.html'</a></li>
+                    <li><a href="./recipes/mexican hot chocolate.html">'Hot chocolate, but it's mexican.html'</a></li>
+                </ul></div>
+            </div>
+        </div>
     </body>
 </html>
