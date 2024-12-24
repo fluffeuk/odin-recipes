@@ -3,12 +3,17 @@
     src: url(./WOFF2/OTF/SourceCodePro-Black.otf.woff2);
 }
 
-#odin-watermark {
+/* #odin-watermark {
+    position: absolute;
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center;     /*Center vertically*/
-    height: 60vh;            
-}
+    justify-content: center; 
+    align-items: center;     
+    height: 70vh;      
+    opacity: 0.6; 
+    z-index: 0; 
+    width: 400vw; 
+    height: auto; 
+} */
 
 .header {
     text-align: center;
